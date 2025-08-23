@@ -1,43 +1,132 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Prof. Lucas Sampaio Leite</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio - Prof. Lucas Sampaio Leite</title>
+  <meta name="description" content="Materiais e informações das disciplinas ministradas pelo Prof. Lucas Sampaio Leite no IF Baiano." />
+  <link rel="icon" href="img/favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <meta property="og:title" content="Portfólio - Prof. Lucas Sampaio Leite">
+  <meta property="og:description" content="Materiais e informações das disciplinas ministradas no IF Baiano.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lucassampaioleite.github.io/portfolio/">
+  <meta property="og:image" content="img/capa.jpg">
 </head>
 <body>
-    <div class="container">
-        <img src="./img/perfil.png" alt="Foto do Prof. Lucas Sampaio Leite" class="profile-photo">
-        <h1>Prof. Lucas Sampaio Leite</h1>
-        <p>Bem-vindo ao meu portfólio de disciplinas ministradas! Aqui você encontra os materiais atualizados das disciplinas que ministro atualmente no Instituto Federal Baiano.</p>
-        
-        <h2>Disciplinas</h2>
-        
-        <h3>Curso Técnico Integrado em Informática</h3>
-        <ul>
-            <li><a href="logica_int.html">Lógica e Linguagem de Programação</a></li>
-            <li><a href="web_II_int.html">Programação Web II</a></li>
-        </ul>        
-        
-        <h3>Curso Técnico Subsequente em Informática</h3>
-        <ul>
-            <li><a href="programacao1_sub.html">Programação I</a></li>
-            <li><a href="logica_sub.html">Lógica e Linguagem de Programação</a></li>
-            <li><a href="pi1_sub.html">Projeto Integrador I</a></li>
-        </ul>        
-        
-        <h3>Curso Técnico Integrado em Agroindústria</h3>
-        <ul>
-            <li><a href="informatica_agrind.html">Informática Básica</a></li>
-        </ul>
-
-        <footer>
-            <p>Atendimento ao discente às sextas-feiras, das 9h30 às 12h, no Gabinete 2.</p>
-            <p>Monitoria de Lógica de Programação: às quartas-feiras, das 13h30 às 17h30, no Laboratório de Informática I, com os monitores Ruan Lucas e Júlia Melissa.</p>
-            <p>Para mais informações sobre pesquisa e áreas de interesse, acesse meu <a href="http://lattes.cnpq.br/8229720572597331" target="_blank">Currículo Lattes</a>.</p>
-            <p>Contato: <a href="mailto:lucas.leite@ifbaiano.edu.br">lucas.leite@ifbaiano.edu.br</a></p>
-        </footer>
+  <header class="site-header">
+    <div class="container header-grid">
+      <img src="img/perfil.png" alt="Foto do Prof. Lucas Sampaio Leite" width="112" height="112" class="avatar" loading="lazy">
+      <div>
+        <h1 class="title">Prof. Lucas Sampaio Leite</h1>
+        <p class="subtitle">Instituto Federal Baiano - Campus Senhor do Bonfim</p>
+      </div>
+      <nav class="site-nav" aria-label="Navegação principal">
+        <a href="#disciplinas">Disciplinas</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#atendimento">Atendimento</a>
+        <a href="#contato">Contato</a>
+      </nav>
     </div>
+  </header>
+
+  <main id="conteudo" class="container">
+    <section id="intro" class="lead">
+      <p>Bem-vindo ao meu portfólio! Aqui você encontrará materiais atualizados e recursos das disciplinas que ministro no Instituto Federal Baiano, preparados para apoiar sua aprendizagem de forma clara e acessível.</p>
+    </section>
+
+    <section id="disciplinas" aria-labelledby="disciplinas-heading">
+      <h2 id="disciplinas-heading">Disciplinas</h2>
+
+      <h3>Curso Técnico Integrado em Informática</h3>
+      <div class="cards">
+        <article class="card">
+          <h4>Lógica e Linguagem de Programação</h4>
+          <p>Conteúdo e materiais atualizados.</p>
+          <a class="btn" href="logica_int.html">Acessar</a>
+        </article>
+        <article class="card">
+          <h4>Programação Web II</h4>
+          <p>Conteúdo e materiais atualizados.</p>
+          <a class="btn" href="web_II_int.html">Acessar</a>
+        </article>
+      </div>
+
+      <h3>Curso Técnico Subsequente em Informática</h3>
+      <div class="cards">
+        <article class="card">
+          <h4>Programação I</h4>
+          <p>Conteúdo e materiais atualizados.</p>
+          <a class="btn" href="programacao1_sub.html">Acessar</a>
+        </article>
+        <article class="card">
+          <h4>Projeto Integrador II</h4>
+          <p>Conteúdo e materiais atualizados.</p>
+          <a class="btn" href="pi2_sub.html">Acessar</a>
+        </article>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <h4>Lógica e Linguagem de Programação</h4>
+          <p>Conteúdos e materiais da turma 2025.1</p>
+          <a class="btn" href="logica_sub.html">Acessar</a>
+        </article>
+        <article class="card">
+          <h4>Projeto Integrador I</h4>
+          <p>Conteúdos e materiais da turma 2025.1</p>
+          <a class="btn" href="pi1_sub.html">Acessar</a>
+        </article>
+      </div>
+
+      <h3>Curso Técnico Integrado em Agroindústria</h3>
+      <div class="cards">
+        <article class="card">
+          <h4>Informática básica</h4>
+          <p>Conteúdo e materiais atualizados.</p>
+          <a class="btn" href="informatica_agrind.html">Acessar</a>
+        </article>
+      </div>
+
+    <section id="projetos" aria-labelledby="projetos-heading">
+    <h2 id="projetos-heading">Projetos</h2>
+    <h3>CodeIF – Fortalecendo a Programação Competitiva no Território do Piemonte Norte do Itapicuru.</h3>
+    <p>O projeto CodeIF busca fortalecer a programação competitiva entre estudantes do IF Baiano e da comunidade local, por meio de oficinas práticas ,listas de treinamento e realização de Maratonas de Programação. Além de desenvolver habilidades técnicas e raciocínio lógico, promove integração entre o IF Baiano e a comunidade local, oferecendo experiências coletivas e contribuindo para a democratização do conhecimento e transformação social.</p>
+    <div class="links">
+        <a href="https://www.youtube.com/@GrupoCodeIF" target="_blank">
+            <i class="fab fa-youtube"></i> YouTube
+        </a>
+        <a href="https://www.instagram.com/grupo.codeif" target="_blank">
+            <i class="fab fa-instagram"></i> Instagram
+        </a>
+    </div>
+</section>
+
+
+    <section id="atendimento" aria-labelledby="atendimento-heading">
+      <h2 id="atendimento-heading">Atendimento</h2>
+      <p>Às sextas-feiras, das 9h30 às 12h, no Gabinete 2.</p>
+      <p>Monitoria de Lógica de Programação: quartas, 13h30–17h30, Lab. de Informática I (monitores: Ruan Lucas e Júlia Melissa).</p>
+    </section>
+
+    <section id="pesquisa">
+      <h2>Pesquisa e Áreas de Interesse</h2>
+      <p>Para mais informações sobre pesquisa e áreas de interesse, acesse meu
+        <a href="https://lattes.cnpq.br" target="_blank" rel="noopener" aria-label="Abrir Currículo Lattes em nova aba">Currículo Lattes</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer id="contato" class="site-footer">
+    <div class="container footer-grid">
+      <small>© <span id="ano"></span> Lucas Sampaio Leite</small>
+      <a href="mailto:lucas.leite@ifbaiano.edu.br" class="email">lucas.leite@ifbaiano.edu.br</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
