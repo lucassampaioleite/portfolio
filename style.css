@@ -173,3 +173,7 @@ h3{ font-size: 1.1rem; margin: 1.5rem 0 .5rem; }
     font-size: 2rem; /* Ícones maiores */
 }
 
+section[id], footer[id] {
+  scroll-margin-top: 120px; /* ajuste o valor para a altura do seu header */
+}
+
